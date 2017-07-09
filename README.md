@@ -12,3 +12,4 @@ build会告诉巴别塔把所有东西都lib放在build目录中。记得我们�
 lint将递归运行我们的linter，lib以确保我们的语法正确。
 lint:watch是一个很好的脚本，随时更改linter lib。当我们走的时候，它会帮助我们抓住错误。
 prepublish是一个很酷的剧本。当我们运行npm publish并执行它之前，npm会寻找这个。这是确保我们的资产build是最新版本的好方法。稍后我们还将添加一个lint和测试脚本。这有助于我们确保我们不会将破坏的代码发布到npm。
+npm
